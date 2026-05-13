@@ -1,0 +1,49 @@
+{
+  "businessName": "Akasa Ventures Limited",
+  "industry": "Manufacturing",
+  "tone": "professional",
+  "tagline": "Excellence in Manufacturing, Rooted in Cross River",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Welcome to Akasa Ventures Limited - Your trusted manufacturing partner in Cross River State. We deliver quality products and innovative solutions that drive Nigeria's industrial growth.",
+      "imagePrompt": "Wide-angle photograph of a modern Nigerian manufacturing facility in Cross River State, with clean industrial buildings, well-organized production areas, blue sky overhead, lush green vegetation in background, conveying professionalism and capability, photorealistic, high quality, natural lighting",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "Akasa Ventures Limited is a leading manufacturing company based in Boki Local Government Area, Cross River State. We are committed to delivering excellence in manufacturing through cutting-edge processes, quality control, and a dedication to meeting the diverse needs of our clients across Nigeria. Our strategic location in Cross River State positions us to serve both regional and national markets efficiently. With a focus on innovation, reliability, and customer satisfaction, we have established ourselves as a trusted name in the Nigerian manufacturing sector.",
+      "imagePrompt": "Interior of a Nigerian manufacturing plant showing skilled workers in safety gear operating modern machinery, bright industrial lighting, organized workspace, conveying professionalism and precision, photorealistic, wide shot, natural colors",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "At Akasa Ventures Limited, we offer comprehensive manufacturing solutions tailored to meet your specific requirements:\n\n• Custom Manufacturing: We produce high-quality products to your exact specifications\n• Quality Assurance: Rigorous quality control processes ensure every product meets international standards\n• Supply Chain Management: Efficient logistics and timely delivery across Nigeria\n• Product Development: Collaborative innovation to bring your ideas to life\n• Bulk Production: Scalable manufacturing capacity for large orders\n• Technical Consultation: Expert guidance on product design and manufacturing processes\n\nWhatever your manufacturing needs, we have the expertise and infrastructure to deliver results that exceed expectations.",
+      "imagePrompt": "Grid of manufacturing processes in a Nigerian facility: raw materials being processed, quality inspection with precision instruments, packaging operations, workers collaborating, modern equipment, clean organized environment, photorealistic, bright industrial setting",
+      "layout": "grid"
+    },
+    {
+      "id": "why-choose-us",
+      "name": "Why Choose Akasa Ventures",
+      "copy": "• Strategic Location: Based in Cross River State with easy access to major Nigerian markets\n• Quality First: We never compromise on product quality or safety standards\n• Experienced Team: Skilled professionals with deep manufacturing expertise\n• Modern Facilities: State-of-the-art equipment and production capabilities\n• Competitive Pricing: Value-driven solutions without hidden costs\n• Reliable Delivery: We meet deadlines and keep our commitments\n• Nigerian-Owned: Supporting local industry and economic development\n• Customer-Centric: Your success is our priority",
+      "imagePrompt": "Nigerian manufacturing team in protective gear standing confidently in front of modern production equipment, diverse professionals, well-lit facility, conveying expertise and reliability, photorealistic, professional corporate photography style",
+      "layout": "cards"
+    },
+    {
+      "id": "contact",
+      "name": "Contact Us",
+      "copy": "Ready to discuss your manufacturing needs? Get in touch with Akasa Ventures Limited today. Our team is ready to provide expert consultation and competitive quotes for your project.\n\nNo.10 Old Town Road, Katchuan Irruan, Boki Local Government Area, Cross River State.\n\nPhone: 08166997422\n\nWhether you need custom manufacturing, bulk production, or technical consultation, we're here to help. Contact us now and let's turn your vision into reality.",
+      "imagePrompt": "Professional Nigerian office reception area with comfortable seating, modern decor, Cross River State map visible on wall, welcoming atmosphere, natural light through windows, photorealistic, clean contemporary design",
+      "layout": "centered"
+    }
+  ],
+  "contact": {
+    "phone": "08166997422",
+    "email": "info@akasaventures.com",
+    "address": "No.10 Old Town Road, Katchuan Irruan, Boki Local Government Area, Cross River State",
+    "whatsapp": "https://wa.me/2348166997422"
+  }
+}
