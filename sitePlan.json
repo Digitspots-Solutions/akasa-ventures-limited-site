@@ -1,49 +1,49 @@
 {
-  "businessName": "Akasa Ventures Limited",
-  "industry": "Manufacturing",
-  "tone": "professional",
-  "tagline": "Excellence in Manufacturing, Rooted in Cross River",
+  "businessName": "Judex Palm Aquaculture Limited",
+  "industry": "FoodTech & Aquaculture",
+  "tone": "professional, trustworthy, innovative",
+  "tagline": "Leading the Future of Sustainable Fish Farming in Nigeria",
   "sections": [
     {
       "id": "hero",
-      "name": "Hero",
-      "copy": "Welcome to Akasa Ventures Limited - Your trusted manufacturing partner in Cross River State. We deliver quality products and innovative solutions that drive Nigeria's industrial growth.",
-      "imagePrompt": "Wide-angle photograph of a modern Nigerian manufacturing facility in Cross River State, with clean industrial buildings, well-organized production areas, blue sky overhead, lush green vegetation in background, conveying professionalism and capability, photorealistic, high quality, natural lighting",
+      "name": "Hero Section",
+      "copy": "Welcome to Judex Palm Aquaculture Limited - Nigeria's Premier Aquaculture Innovation Hub. We combine traditional fish farming expertise with cutting-edge food processing technology to deliver premium quality fish products across Cross River State and beyond. Sustainable. Fresh. Reliable.",
+      "imagePrompt": "Wide panoramic shot of modern fish farming ponds in lush green Nigerian countryside, with workers in professional gear tending to the ponds, clear blue water reflecting the sky, palm trees in background, golden hour lighting, photorealistic, professional commercial photography",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "Akasa Ventures Limited is a leading manufacturing company based in Boki Local Government Area, Cross River State. We are committed to delivering excellence in manufacturing through cutting-edge processes, quality control, and a dedication to meeting the diverse needs of our clients across Nigeria. Our strategic location in Cross River State positions us to serve both regional and national markets efficiently. With a focus on innovation, reliability, and customer satisfaction, we have established ourselves as a trusted name in the Nigerian manufacturing sector.",
-      "imagePrompt": "Interior of a Nigerian manufacturing plant showing skilled workers in safety gear operating modern machinery, bright industrial lighting, organized workspace, conveying professionalism and precision, photorealistic, wide shot, natural colors",
+      "copy": "Judex Palm Aquaculture Limited, also known as Judex Palm Fisheries Tech Co, is a pioneering FoodTech enterprise based in Boki, Cross River State. Founded and led by experienced Food Processing Engineers, we specialize in sustainable aquaculture practices that combine traditional Nigerian fish farming methods with modern food technology innovations.\n\nOur facility in Katchuan Irruan serves as a model for responsible fish farming, employing advanced processing techniques to ensure the highest quality standards from pond to plate. We are committed to supporting local food security while creating economic opportunities in rural Nigeria.\n\nAt Judex Palm, we don't just farm fish—we're cultivating a sustainable future for Nigerian aquaculture, one pond at a time.",
+      "imagePrompt": "Professional shot of a Nigerian food processing engineer in clean white coat and safety gear inspecting fish quality in a modern processing facility, stainless steel equipment visible, bright natural lighting through large windows, Cross River State landscape visible outside, documentary style photography",
       "layout": "split"
     },
     {
       "id": "services",
       "name": "Our Services",
-      "copy": "At Akasa Ventures Limited, we offer comprehensive manufacturing solutions tailored to meet your specific requirements:\n\n• Custom Manufacturing: We produce high-quality products to your exact specifications\n• Quality Assurance: Rigorous quality control processes ensure every product meets international standards\n• Supply Chain Management: Efficient logistics and timely delivery across Nigeria\n• Product Development: Collaborative innovation to bring your ideas to life\n• Bulk Production: Scalable manufacturing capacity for large orders\n• Technical Consultation: Expert guidance on product design and manufacturing processes\n\nWhatever your manufacturing needs, we have the expertise and infrastructure to deliver results that exceed expectations.",
-      "imagePrompt": "Grid of manufacturing processes in a Nigerian facility: raw materials being processed, quality inspection with precision instruments, packaging operations, workers collaborating, modern equipment, clean organized environment, photorealistic, bright industrial setting",
-      "layout": "grid"
-    },
-    {
-      "id": "why-choose-us",
-      "name": "Why Choose Akasa Ventures",
-      "copy": "• Strategic Location: Based in Cross River State with easy access to major Nigerian markets\n• Quality First: We never compromise on product quality or safety standards\n• Experienced Team: Skilled professionals with deep manufacturing expertise\n• Modern Facilities: State-of-the-art equipment and production capabilities\n• Competitive Pricing: Value-driven solutions without hidden costs\n• Reliable Delivery: We meet deadlines and keep our commitments\n• Nigerian-Owned: Supporting local industry and economic development\n• Customer-Centric: Your success is our priority",
-      "imagePrompt": "Nigerian manufacturing team in protective gear standing confidently in front of modern production equipment, diverse professionals, well-lit facility, conveying expertise and reliability, photorealistic, professional corporate photography style",
+      "copy": "Fresh Fish Supply: We provide consistent supply of premium catfish, tilapia, and other popular species to restaurants, hotels, markets, and individual customers across Cross River State.\n\nAquaculture Consulting: Leverage our Food Processing Engineering expertise to set up or optimize your fish farm. We offer technical guidance on pond design, water quality management, and sustainable farming practices.\n\nProcessed Fish Products: From fresh fillets to smoked fish, our processing facility delivers hygienically prepared fish products that meet international food safety standards.\n\nFarmgate Services: We work directly with smallholder farmers, providing technical support, training, and market access to improve yields and profitability.\n\nBulk Orders & Contracts: Reliable supply partnerships for businesses requiring consistent volumes of quality fish products.",
+      "imagePrompt": "Grid layout of various aquaculture activities: fresh catfish in harvest nets, workers processing fish in hygienic facility, fish feeding in organized pond rows, packaged fish products in cold storage, all set in Nigerian context with professional lighting and composition",
       "layout": "cards"
     },
     {
+      "id": "why-choose-us",
+      "name": "Why Choose Judex Palm",
+      "copy": "Food Processing Engineering Expertise: Our operations are led by qualified Food Processing Engineers who understand both the science and business of aquaculture.\n\nSustainable Practices: We employ environmentally responsible farming methods that protect our ecosystem while maximizing productivity.\n\nQuality Assurance: Every fish product undergoes rigorous quality checks to ensure freshness, taste, and safety.\n\nLocal Impact: We're creating jobs and supporting the economic development of Boki Local Government Area and Cross River State.\n\nReliable Supply Chain: Our strategic location and efficient operations ensure consistent availability and timely delivery.\n\nCompetitive Pricing: Direct from farm to customer means better value without compromising on quality.",
+      "imagePrompt": "Aerial view of organized fish farm with multiple rectangular ponds arranged systematically, surrounded by tropical Nigerian vegetation, solar panels visible on processing building, access roads connecting different sections, professional drone photography, clear day with excellent visibility",
+      "layout": "grid"
+    },
+    {
       "id": "contact",
-      "name": "Contact Us",
-      "copy": "Ready to discuss your manufacturing needs? Get in touch with Akasa Ventures Limited today. Our team is ready to provide expert consultation and competitive quotes for your project.\n\nNo.10 Old Town Road, Katchuan Irruan, Boki Local Government Area, Cross River State.\n\nPhone: 08166997422\n\nWhether you need custom manufacturing, bulk production, or technical consultation, we're here to help. Contact us now and let's turn your vision into reality.",
-      "imagePrompt": "Professional Nigerian office reception area with comfortable seating, modern decor, Cross River State map visible on wall, welcoming atmosphere, natural light through windows, photorealistic, clean contemporary design",
+      "name": "Get In Touch",
+      "copy": "Ready to partner with Cross River State's leading aquaculture innovator? Whether you need fresh fish supply, aquaculture consulting, or want to discuss bulk orders, Judex Palm Aquaculture Limited is here to serve you.\n\nVisit our facility in Boki to see sustainable aquaculture in action, or contact us today to discuss how we can meet your fish farming and supply needs.\n\nCall or WhatsApp: 0816 699 7422\nLocation: No.10 Old Town Road, Katchuan Irruan, Boki Local Government Area, Cross River State, Nigeria.\n\nWe look forward to growing with you!",
+      "imagePrompt": "Professional contact page imagery showing the entrance to Judex Palm facility with company signage, well-maintained access road, palm trees lining the driveway, blue sky, inviting and accessible atmosphere, Nigerian business setting, sharp professional photography",
       "layout": "centered"
     }
   ],
   "contact": {
-    "phone": "08166997422",
-    "email": "info@akasaventures.com",
-    "address": "No.10 Old Town Road, Katchuan Irruan, Boki Local Government Area, Cross River State",
+    "phone": "+234 816 699 7422",
+    "email": "info@judexpalm.com",
+    "address": "No.10 Old Town Road, Katchuan Irruan, Boki Local Government Area, Cross River State, Nigeria",
     "whatsapp": "https://wa.me/2348166997422"
   }
 }
