@@ -3,21 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akasa Ventures Limited - Excellence in Manufacturing, Rooted in Cross River</title>
+    <title>Judex Palm Aquaculture Limited - Leading the Future of Sustainable Fish Farming in Nigeria</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600;700&family=Nunito+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
         :root {
-            --color-primary: #252525;
-            --color-accent: #bc6125;
-            --color-bg: #F2EDE8;
-            --color-text: #1C1C1C;
-            --color-surface: #272321;
-            --color-secondary-accent: #7b7b79;
-            --font-display: 'Kanit', sans-serif;
-            --font-body: 'Nunito Sans', sans-serif;
-            --border-radius: 0px;
+            --color-primary: #481009;
+            --color-accent: #e47825;
+            --color-bg: #FDF2EC;
+            --color-text: #3C1008;
+            --color-surface: #602e0f;
+            --color-secondary-accent: #426a31;
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Source Sans 3', sans-serif;
+            --border-radius: 12px;
         }
 
         * {
@@ -35,24 +35,14 @@
             color: var(--color-text);
             background-color: var(--color-bg);
             line-height: 1.7;
-            position: relative;
+            overflow-x: hidden;
         }
 
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
-            pointer-events: none;
-            z-index: 1;
-        }
-
-        .content-wrapper {
-            position: relative;
-            z-index: 2;
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 600;
+            line-height: 1.2;
+            color: var(--color-primary);
         }
 
         @keyframes fadeUp {
@@ -67,19 +57,20 @@
         }
 
         nav {
-            position: sticky;
+            position: fixed;
             top: 0;
-            background: rgba(242, 237, 232, 0.95);
+            width: 100%;
+            background: rgba(253, 242, 236, 0.95);
             backdrop-filter: blur(10px);
-            padding: 1.2rem 5%;
             z-index: 1000;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-            animation: fadeUp 0.6s ease forwards;
+            padding: 1.2rem 0;
+            box-shadow: 0 2px 10px rgba(72, 16, 9, 0.1);
         }
 
         .nav-container {
             max-width: 1400px;
             margin: 0 auto;
+            padding: 0 2rem;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -88,22 +79,23 @@
         .logo {
             font-family: var(--font-display);
             font-size: 1.5rem;
-            font-weight: 700;
+            font-weight: 600;
             color: var(--color-primary);
+            text-decoration: none;
         }
 
         .nav-links {
             display: flex;
             list-style: none;
-            gap: 2.5rem;
+            gap: 2rem;
         }
 
         .nav-links a {
             text-decoration: none;
             color: var(--color-text);
-            font-weight: 600;
+            font-weight: 500;
             transition: color 0.3s ease;
-            font-size: 0.95rem;
+            font-size: 1rem;
         }
 
         .nav-links a:hover {
@@ -173,12 +165,12 @@
         }
 
         .mobile-menu ul a:hover {
-            color: var(--color-accent);
+            color: var(--color-primary);
         }
 
         #hero {
-            height: 100vh;
             position: relative;
+            height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -188,88 +180,111 @@
             animation: fadeUp 0.6s ease forwards;
         }
 
-        .hero-bg {
+        #hero::before {
+            content: '';
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            object-fit: cover;
-            z-index: 1;
+            background-image: url('https://images.pexels.com/photos/32263211/pexels-photo-32263211.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+            background-size: cover;
+            background-position: center;
+            z-index: -2;
         }
 
-        .hero-overlay {
+        #hero::after {
+            content: '';
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
             background: rgba(0, 0, 0, 0.55);
-            z-index: 2;
+            z-index: -1;
         }
 
         .hero-content {
-            position: relative;
-            z-index: 3;
             max-width: 900px;
-            padding: 0 5%;
+            padding: 0 2rem;
+            position: relative;
+            z-index: 1;
         }
 
         .hero-content h1 {
-            font-family: var(--font-display);
             font-size: 3.5rem;
-            font-weight: 700;
             margin-bottom: 1.5rem;
-            line-height: 1.2;
+            color: white;
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
         }
 
         .hero-content .tagline {
-            font-size: 1.8rem;
+            font-size: 1.5rem;
             margin-bottom: 1rem;
-            font-weight: 600;
             color: var(--color-accent);
+            font-family: var(--font-display);
+            font-style: italic;
         }
 
         .hero-content p {
             font-size: 1.2rem;
             margin-bottom: 2.5rem;
-            line-height: 1.6;
+            line-height: 1.8;
         }
 
         .cta-button {
             display: inline-block;
-            padding: 1rem 3rem;
-            background: var(--color-accent);
+            padding: 1rem 2.5rem;
+            background-color: var(--color-accent);
             color: white;
             text-decoration: none;
+            border-radius: var(--border-radius);
             font-weight: 600;
             font-size: 1.1rem;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 4px 4px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 4px 15px rgba(228, 120, 37, 0.4);
         }
 
         .cta-button:hover {
-            transform: translate(-2px, -2px);
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(228, 120, 37, 0.6);
         }
 
         section {
-            padding: 80px 5%;
+            padding: 80px 2rem;
             max-width: 1400px;
             margin: 0 auto;
         }
 
-        section h2 {
-            font-family: var(--font-display);
-            font-size: 2.8rem;
-            margin-bottom: 2rem;
-            color: var(--color-primary);
-            font-weight: 700;
+        section:nth-child(2) {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0s;
         }
 
-        #about {
+        section:nth-child(3) {
             animation: fadeUp 0.6s ease forwards;
             animation-delay: 0.1s;
+        }
+
+        section:nth-child(4) {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.2s;
+        }
+
+        section:nth-child(5) {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.3s;
+        }
+
+        section:nth-child(6) {
+            animation: fadeUp 0.6s ease forwards;
+            animation-delay: 0.4s;
+        }
+
+        h2 {
+            font-size: 2.8rem;
+            margin-bottom: 3rem;
+            text-align: center;
         }
 
         .about-container {
@@ -283,106 +298,105 @@
             width: 100%;
             height: 500px;
             object-fit: cover;
-            box-shadow: 8px 8px 0 var(--color-accent);
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 40px rgba(72, 16, 9, 0.15);
         }
 
         .about-text p {
-            font-size: 1.1rem;
             margin-bottom: 1.5rem;
-        }
-
-        #services {
-            background: white;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.2s;
+            font-size: 1.1rem;
         }
 
         .services-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
-            margin-top: 3rem;
         }
 
         .service-card {
-            background: var(--color-bg);
+            background: white;
             padding: 2rem;
-            box-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 20px rgba(72, 16, 9, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .service-card:hover {
-            transform: translate(-2px, -2px);
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.15);
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(72, 16, 9, 0.2);
         }
 
         .service-card h3 {
-            font-family: var(--font-display);
             font-size: 1.5rem;
             margin-bottom: 1rem;
             color: var(--color-accent);
         }
 
         .service-card p {
+            font-size: 1rem;
             line-height: 1.7;
-        }
-
-        #why-choose-us {
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.3s;
         }
 
         .why-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 2rem;
-            margin-top: 3rem;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2.5rem;
         }
 
-        .why-card {
-            background: var(--color-surface);
-            color: white;
-            padding: 2rem;
-            border-left: 4px solid var(--color-accent);
+        .why-item {
+            background: white;
+            padding: 2.5rem;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--color-secondary-accent);
+            box-shadow: 0 4px 20px rgba(72, 16, 9, 0.08);
         }
 
-        .why-card h3 {
-            font-family: var(--font-display);
+        .why-item h3 {
             font-size: 1.4rem;
-            margin-bottom: 0.8rem;
-            color: var(--color-accent);
+            margin-bottom: 1rem;
+            color: var(--color-surface);
+        }
+
+        .why-item p {
+            font-size: 1rem;
         }
 
         #contact {
-            background: var(--color-primary);
-            color: white;
             text-align: center;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.4s;
+            background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-surface) 100%);
+            color: white;
+            border-radius: var(--border-radius);
+            margin: 0 2rem;
         }
 
         #contact h2 {
             color: white;
         }
 
-        #contact p {
-            font-size: 1.1rem;
-            margin-bottom: 1.5rem;
+        .contact-content {
             max-width: 800px;
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
         }
 
-        .contact-info {
-            margin-top: 3rem;
+        .contact-content p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .contact-details {
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
-            align-items: center;
+            margin-top: 3rem;
         }
 
         .contact-item {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
         }
 
         .contact-item a {
@@ -396,53 +410,36 @@
             color: white;
         }
 
-        .whatsapp-btn {
-            display: inline-block;
-            padding: 1rem 2.5rem;
-            background: #25D366;
-            color: white;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 2rem;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 4px 4px 0 rgba(0,0,0,0.2);
-        }
-
-        .whatsapp-btn:hover {
-            transform: translate(-2px, -2px);
-            box-shadow: 6px 6px 0 rgba(0,0,0,0.3);
-        }
-
         .whatsapp-float {
             position: fixed;
             bottom: 30px;
             right: 30px;
+            background-color: #25D366;
+            color: white;
             width: 60px;
             height: 60px;
-            background: #25D366;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-            z-index: 1000;
-            transition: transform 0.3s ease;
-            text-decoration: none;
-            color: white;
             font-size: 2rem;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            z-index: 999;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .whatsapp-float:hover {
             transform: scale(1.1);
+            box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
         }
 
         footer {
-            background: var(--color-surface);
-            color: white;
             text-align: center;
-            padding: 2rem 5%;
-            animation: fadeUp 0.6s ease forwards;
-            animation-delay: 0.5s;
+            padding: 2rem;
+            background-color: var(--color-primary);
+            color: white;
+            font-size: 0.95rem;
         }
 
         @media (max-width: 1024px) {
@@ -450,12 +447,12 @@
                 font-size: 2.8rem;
             }
 
-            .hero-content .tagline {
-                font-size: 1.5rem;
+            h2 {
+                font-size: 2.3rem;
             }
 
-            section h2 {
-                font-size: 2.3rem;
+            .about-container {
+                gap: 3rem;
             }
         }
 
@@ -463,13 +460,13 @@
             .nav-links {
                 display: none;
             }
-
+            
             .mobile-menu-btn {
                 display: flex;
             }
 
             section {
-                padding: 48px 5%;
+                padding: 48px 1.5rem;
             }
 
             .hero-content h1 {
@@ -484,8 +481,9 @@
                 font-size: 1rem;
             }
 
-            section h2 {
-                font-size: 1.9rem;
+            h2 {
+                font-size: 2rem;
+                margin-bottom: 2rem;
             }
 
             .about-container {
@@ -497,41 +495,45 @@
                 height: 350px;
             }
 
-            .services-grid,
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+
             .why-grid {
                 grid-template-columns: 1fr;
+            }
+
+            #contact {
+                margin: 0 1rem;
             }
 
             .whatsapp-float {
                 width: 50px;
                 height: 50px;
+                font-size: 1.7rem;
                 bottom: 20px;
                 right: 20px;
-                font-size: 1.6rem;
             }
         }
     </style>
 </head>
 <body>
-    <div class="content-wrapper">
-        <nav>
-            <div class="nav-container">
-                <div class="logo">Akasa Ventures Limited</div>
-                <ul class="nav-links">
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#why-choose-us">Why Choose Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="mobile-menu-btn">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+    <nav>
+        <div class="nav-container">
+            <a href="#hero" class="logo">Judex Palm Aquaculture</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-        </nav>
-
+        </div>
         <div class="mobile-menu">
             <ul>
                 <li><a href="#hero">Home</a></li>
@@ -541,128 +543,110 @@
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
+    </nav>
 
-        <section id="hero">
-            <img src="https://images.pexels.com/photos/12550689/pexels-photo-12550689.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Akasa Ventures Manufacturing Facility" class="hero-bg">
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <h1>Akasa Ventures Limited</h1>
-                <div class="tagline">Excellence in Manufacturing, Rooted in Cross River</div>
-                <p>Welcome to Akasa Ventures Limited - Your trusted manufacturing partner in Cross River State. We deliver quality products and innovative solutions that drive Nigeria's industrial growth.</p>
-                <a href="#contact" class="cta-button">Get In Touch</a>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Judex Palm Aquaculture Limited</h1>
+            <p class="tagline">Leading the Future of Sustainable Fish Farming in Nigeria</p>
+            <p>Welcome to Judex Palm Aquaculture Limited - Nigeria's Premier Aquaculture Innovation Hub. We combine traditional fish farming expertise with cutting-edge food processing technology to deliver premium quality fish products across Cross River State and beyond. Sustainable. Fresh. Reliable.</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <div class="about-container">
+            <img src="https://images.pexels.com/photos/36756598/pexels-photo-36756598.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="About Judex Palm Aquaculture" class="about-image">
+            <div class="about-text">
+                <p>Judex Palm Aquaculture Limited, also known as Judex Palm Fisheries Tech Co, is a pioneering FoodTech enterprise based in Boki, Cross River State. Founded and led by experienced Food Processing Engineers, we specialize in sustainable aquaculture practices that combine traditional Nigerian fish farming methods with modern food technology innovations.</p>
+                <p>Our facility in Katchuan Irruan serves as a model for responsible fish farming, employing advanced processing techniques to ensure the highest quality standards from pond to plate. We are committed to supporting local food security while creating economic opportunities in rural Nigeria.</p>
+                <p>At Judex Palm, we don't just farm fish—we're cultivating a sustainable future for Nigerian aquaculture, one pond at a time.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="about">
-            <div class="about-container">
-                <div>
-                    <img src="https://images.pexels.com/photos/18920790/pexels-photo-18920790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Akasa Ventures Manufacturing Operations" class="about-image">
-                </div>
-                <div class="about-text">
-                    <h2>About Us</h2>
-                    <p>Akasa Ventures Limited is a leading manufacturing company based in Boki Local Government Area, Cross River State. We are committed to delivering excellence in manufacturing through cutting-edge processes, quality control, and a dedication to meeting the diverse needs of our clients across Nigeria.</p>
-                    <p>Our strategic location in Cross River State positions us to serve both regional and national markets efficiently. With a focus on innovation, reliability, and customer satisfaction, we have established ourselves as a trusted name in the Nigerian manufacturing sector.</p>
-                </div>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Fresh Fish Supply</h3>
+                <p>We provide consistent supply of premium catfish, tilapia, and other popular species to restaurants, hotels, markets, and individual customers across Cross River State.</p>
             </div>
-        </section>
-
-        <section id="services">
-            <h2>Our Services</h2>
-            <p>At Akasa Ventures Limited, we offer comprehensive manufacturing solutions tailored to meet your specific requirements:</p>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Custom Manufacturing</h3>
-                    <p>We produce high-quality products to your exact specifications</p>
-                </div>
-                <div class="service-card">
-                    <h3>Quality Assurance</h3>
-                    <p>Rigorous quality control processes ensure every product meets international standards</p>
-                </div>
-                <div class="service-card">
-                    <h3>Supply Chain Management</h3>
-                    <p>Efficient logistics and timely delivery across Nigeria</p>
-                </div>
-                <div class="service-card">
-                    <h3>Product Development</h3>
-                    <p>Collaborative innovation to bring your ideas to life</p>
-                </div>
-                <div class="service-card">
-                    <h3>Bulk Production</h3>
-                    <p>Scalable manufacturing capacity for large orders</p>
-                </div>
-                <div class="service-card">
-                    <h3>Technical Consultation</h3>
-                    <p>Expert guidance on product design and manufacturing processes</p>
-                </div>
+            <div class="service-card">
+                <h3>Aquaculture Consulting</h3>
+                <p>Leverage our Food Processing Engineering expertise to set up or optimize your fish farm. We offer technical guidance on pond design, water quality management, and sustainable farming practices.</p>
             </div>
-            <p style="margin-top: 2rem; font-size: 1.1rem;">Whatever your manufacturing needs, we have the expertise and infrastructure to deliver results that exceed expectations.</p>
-        </section>
-
-        <section id="why-choose-us">
-            <h2>Why Choose Akasa Ventures</h2>
-            <div class="why-grid">
-                <div class="why-card">
-                    <h3>Strategic Location</h3>
-                    <p>Based in Cross River State with easy access to major Nigerian markets</p>
-                </div>
-                <div class="why-card">
-                    <h3>Quality First</h3>
-                    <p>We never compromise on product quality or safety standards</p>
-                </div>
-                <div class="why-card">
-                    <h3>Experienced Team</h3>
-                    <p>Skilled professionals with deep manufacturing expertise</p>
-                </div>
-                <div class="why-card">
-                    <h3>Modern Facilities</h3>
-                    <p>State-of-the-art equipment and production capabilities</p>
-                </div>
-                <div class="why-card">
-                    <h3>Competitive Pricing</h3>
-                    <p>Value-driven solutions without hidden costs</p>
-                </div>
-                <div class="why-card">
-                    <h3>Reliable Delivery</h3>
-                    <p>We meet deadlines and keep our commitments</p>
-                </div>
-                <div class="why-card">
-                    <h3>Nigerian-Owned</h3>
-                    <p>Supporting local industry and economic development</p>
-                </div>
-                <div class="why-card">
-                    <h3>Customer-Centric</h3>
-                    <p>Your success is our priority</p>
-                </div>
+            <div class="service-card">
+                <h3>Processed Fish Products</h3>
+                <p>From fresh fillets to smoked fish, our processing facility delivers hygienically prepared fish products that meet international food safety standards.</p>
             </div>
-        </section>
+            <div class="service-card">
+                <h3>Farmgate Services</h3>
+                <p>We work directly with smallholder farmers, providing technical support, training, and market access to improve yields and profitability.</p>
+            </div>
+            <div class="service-card">
+                <h3>Bulk Orders & Contracts</h3>
+                <p>Reliable supply partnerships for businesses requiring consistent volumes of quality fish products.</p>
+            </div>
+        </div>
+    </section>
 
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>Ready to discuss your manufacturing needs? Get in touch with Akasa Ventures Limited today. Our team is ready to provide expert consultation and competitive quotes for your project.</p>
-            <div class="contact-info">
+    <section id="why-choose-us">
+        <h2>Why Choose Judex Palm</h2>
+        <div class="why-grid">
+            <div class="why-item">
+                <h3>Food Processing Engineering Expertise</h3>
+                <p>Our operations are led by qualified Food Processing Engineers who understand both the science and business of aquaculture.</p>
+            </div>
+            <div class="why-item">
+                <h3>Sustainable Practices</h3>
+                <p>We employ environmentally responsible farming methods that protect our ecosystem while maximizing productivity.</p>
+            </div>
+            <div class="why-item">
+                <h3>Quality Assurance</h3>
+                <p>Every fish product undergoes rigorous quality checks to ensure freshness, taste, and safety.</p>
+            </div>
+            <div class="why-item">
+                <h3>Local Impact</h3>
+                <p>We're creating jobs and supporting the economic development of Boki Local Government Area and Cross River State.</p>
+            </div>
+            <div class="why-item">
+                <h3>Reliable Supply Chain</h3>
+                <p>Our strategic location and efficient operations ensure consistent availability and timely delivery.</p>
+            </div>
+            <div class="why-item">
+                <h3>Competitive Pricing</h3>
+                <p>Direct from farm to customer means better value without compromising on quality.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-content">
+            <h2>Get In Touch</h2>
+            <p>Ready to partner with Cross River State's leading aquaculture innovator? Whether you need fresh fish supply, aquaculture consulting, or want to discuss bulk orders, Judex Palm Aquaculture Limited is here to serve you.</p>
+            <p>Visit our facility in Boki to see sustainable aquaculture in action, or contact us today to discuss how we can meet your fish farming and supply needs.</p>
+            <div class="contact-details">
                 <div class="contact-item">
-                    <strong>Address:</strong><br>
-                    No.10 Old Town Road, Katchuan Irruan, Boki Local Government Area, Cross River State
+                    <strong>Call or WhatsApp:</strong> <a href="tel:+2348166997422">0816 699 7422</a>
                 </div>
                 <div class="contact-item">
-                    <strong>Phone:</strong><br>
-                    <a href="tel:08166997422">08166997422</a>
+                    <strong>Email:</strong> <a href="mailto:info@judexpalm.com">info@judexpalm.com</a>
                 </div>
                 <div class="contact-item">
-                    <strong>Email:</strong><br>
-                    <a href="mailto:info@akasaventures.com">info@akasaventures.com</a>
+                    <strong>Location:</strong> No.10 Old Town Road, Katchuan Irruan, Boki Local Government Area, Cross River State, Nigeria
                 </div>
             </div>
-            <p style="margin-top: 2rem;">Whether you need custom manufacturing, bulk production, or technical consultation, we're here to help. Contact us now and let's turn your vision into reality.</p>
-            <a href="https://wa.me/2348166997422" class="whatsapp-btn" target="_blank">Message Us on WhatsApp</a>
-        </section>
+            <p style="margin-top: 2rem;">We look forward to growing with you!</p>
+        </div>
+    </section>
 
-        <footer>
-            <p>&copy; 2025 Akasa Ventures Limited. All rights reserved.</p>
-        </footer>
+    <a href="https://wa.me/2348166997422" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">&#10148;</a>
 
-        <a href="https://wa.me/2348166997422" class="whatsapp-float" target="_blank" aria-label="WhatsApp">&#10148;</a>
-    </div>
+    <footer>
+        <p>&copy; 2024 Judex Palm Aquaculture Limited. All rights reserved.</p>
+    </footer>
 
     <script>
         // Mobile menu toggle
